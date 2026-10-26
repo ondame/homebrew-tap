@@ -3,27 +3,27 @@
 class OndaDeveloperCenter < Formula
   desc "Configure the ONDA Developer Center portal from a terminal or an AI agent"
   homepage "https://developers.tport.dev/docs/cli"
-  version "0.1.1"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.1.1/ondadc_0.1.1_darwin_arm64.tar.gz"
-      sha256 "359f60536f6d716ec5b1dc7feabc1cd73f22d76a33f893b60eb12fbbed869f39"
+      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.2.0/ondadc_0.2.0_darwin_arm64.tar.gz"
+      sha256 "d69e952d094d71cfbb080ed5fbf35c1c9e7999a58f44e2810cd04a426e35b37d"
     end
     on_intel do
-      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.1.1/ondadc_0.1.1_darwin_amd64.tar.gz"
-      sha256 "ac6a61a5e486ee52b5cdbe8929737e284770381e2c6f7b02890554f947484e88"
+      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.2.0/ondadc_0.2.0_darwin_amd64.tar.gz"
+      sha256 "b50c61b4a9a68b19b91384d675cdaf2f6c43f7e73ac2a04ae90b526e70024178"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.1.1/ondadc_0.1.1_linux_arm64.tar.gz"
-      sha256 "ff8a0744fcd1ccf836f5200c5ae93bc701b783a0dde70b2b6a3e8e5d7b80948e"
+      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.2.0/ondadc_0.2.0_linux_arm64.tar.gz"
+      sha256 "f67fd158186113083fd6b4a738dcba55a855eb4f2c6599b68d121080c9e221ea"
     end
     on_intel do
-      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.1.1/ondadc_0.1.1_linux_amd64.tar.gz"
-      sha256 "6bcb80fd08c4e62be0a48817e9b22999875bb3ea2d13977249cffe9f6326f43a"
+      url "https://github.com/ondame/homebrew-tap/releases/download/cli-v0.2.0/ondadc_0.2.0_linux_amd64.tar.gz"
+      sha256 "85c48a31261c8020bffd341a280e40e4e841f7da3cd4e45daae6b4b0161c0d7e"
     end
   end
 
